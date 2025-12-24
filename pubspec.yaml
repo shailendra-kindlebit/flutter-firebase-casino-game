@@ -1,0 +1,38 @@
+name: new_spinner
+description: "A new Flutter project."
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.10.3
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+  flutter_fortune_wheel:
+  flutter_slot_machine: ^0.0.1
+  firebase_core: ^2.24.2
+  cloud_firestore: ^4.14.0
+  firebase_storage: ^11.6.0
+  image_picker: ^1.0.7
+  firebase_auth: ^4.16.0
+  shared_preferences: ^2.2.2
+  confetti: ^0.7.0
+  get:
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^6.0.0
+
+flutter:
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/images/
+    - assets/spinner_items/
